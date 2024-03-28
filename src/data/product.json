@@ -1,0 +1,39 @@
+
+[
+  {
+    "id": 1,
+    "name": "Nike Dunk High Pine Green White",
+    "price": 110,
+    "description": "🔥Hot Sale",
+    "discount": "30%",
+    "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzU4MzMzLzdlOTI5MTJjODc3NWIwYWIyMWFlMjQ2ZjgzMmZhNTI1LmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE0MDB9fX0=" 
+  },
+  {
+    "id": 2,
+    "name": "Nike Dunk Low White Black Panda",
+    "price": 56,
+    "description": "🔥Hot Sale",
+    "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzE3MjY2L2Q1MjBhMGQ3ZTM0NzA4YzZlNjVkZmYwYjMxNjA5ZGFjLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTQwMH19fQ=="
+  },
+  {
+    "id": 3,
+    "name": "Nike Air Jordan 1 Low Bred Toe 2.0",
+    "price": 50,
+    "description": "🔥Hot Sale",
+    "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzcyNTEzL2UwODk1ZjZlMmZjYjg5MWNiMDMwYzdhMmQxYzA4MTkyLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTQwMH19fQ=="
+  },
+  {
+    "id": 4,
+    "name": "New Balance 650R Honeycomb",
+    "price": 80,
+    "description": "🔥Hot Sale",
+    "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzU4NDkyLzUwMmMyMDM0NWMyOTgyNmY3YmJlMDM4ZTE0NWY2MDYxLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE0MDB9fX0="
+  },
+  {
+    "id": 5,
+    "name": "New Balance 530 Ivory",
+    "price": 80,
+    "description": "🔥Hot Sale",
+    "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzMzNjgyL2IzZjI5YTdiNzU5NGI5OTJhZmUwODA1NzYzNzgzNDlhLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTQwMH19fQ=="
+  }
+]
