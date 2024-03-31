@@ -1,4 +1,4 @@
-Landing page Ecommerce sneakers inspired by Kickz.com using NEXT JS, Tailwind CSS, Local API
+Landing page Sneakers Website inspired by Kickz.com using NEXT JS, Tailwind CSS, Local API
 ( STILL DEVELOPING )
 
 DEMO : https://kickzout.vercel.app/
