@@ -1,5 +1,6 @@
-import { BsBag } from "react-icons/bs";
-import { BsHeart } from "react-icons/bs";
+import { PiBagSimpleLight } from "react-icons/pi";
+import { PiHeartLight } from "react-icons/pi";
+import { PiUser } from "react-icons/pi";
 import Link from "next/link";
 
 export default function Navbar () {
@@ -12,15 +13,19 @@ export default function Navbar () {
         <ul className="flex ml-4 gap-4">
             <li>
             <Link href='#'>
-                    <BsHeart
-                    size={18}/>
+                    <PiHeartLight className="w-6 h-6"
+                    />
                 </Link>
             </li>
             <li alt="Checkout"> 
                 <Link href='/checkout'>
-                    <BsBag
-                    size={18}/>
+                    <PiBagSimpleLight className="w-6 h-6" 
+                    />
                 </Link>
+            </li>
+            <li>
+                <PiUser  className="w-6 h-6"
+                />
             </li>
         </ul>
         </nav>
