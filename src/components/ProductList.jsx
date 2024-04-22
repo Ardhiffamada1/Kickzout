@@ -1,6 +1,5 @@
-
-
-
+import Link from 'next/link';
+import Image from 'next/image';
 import Products from '../data/product.json'
 
 
@@ -19,9 +18,13 @@ export default function ProductShow () {
     <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {productsToShow.map(product => (
       <li key={product.id}>
-        <a href="#" className="group block overflow-hidden">
-          <img
+        <Link href="#" className="group block overflow-hidden">
+          <Image
             src={product.image}
+            height={500}
+            width={500}
+            objectFit="contain"
+            priority
             alt=""
             className="h-[350px] w-full object-contain transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
@@ -39,7 +42,7 @@ export default function ProductShow () {
               <span className="tracking-wider text-gray-900">Rp.{usdToIdr(product.price)}</span>
             </p>
           </div>
-        </a>
+        </Link>
       </li>
       ))}
       </ul>

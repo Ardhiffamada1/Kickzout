@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Products from '../data/product.json'
 import CartButton from '@/props/butonCart';
 
@@ -20,7 +21,12 @@ export default function Cards (){
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
         {productsToShow.map(product => (
           <div key={product.id} className="bg-white p-5 shadow-md rounded-md">
-            <img src={product.image} alt={product.name} className="w-full object-cover mb-4 rounded-md" />
+            <Image
+             src={product.image}
+             width={200}
+             height={200}
+              alt={product.name} 
+              className="w-full object-cover mb-4 rounded-md" />
             <h2 className="text-sm font-semibold mb-2">{product.name}</h2>
             <p className="text-white bg-red-800 rounded-xl text-center text-sm w-28 mb-2">{product.description}</p>
             <p className="text-gray-800 text-sm">Start from: Rp {usdToIdr(product.price)}</p>
