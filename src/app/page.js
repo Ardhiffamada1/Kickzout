@@ -8,6 +8,7 @@ import Collection from "@/components/Hero";
 export default function Home() {
   return (
     <main>
+      <Collection />
       <Cards />
       <div className="mt-10">
       <h1 className="text-2xl font-bold mb-4 text-center">Customer Reviews</h1>
