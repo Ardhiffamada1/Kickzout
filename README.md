@@ -1,4 +1,12 @@
 Landing page Sneakers Website inspired by Kickz.com using NEXT JS, Tailwind CSS, Local API
+Feature :
+- Checkout page
+- Convert USD to IDR price
+
+Coming Soon Feature :
+- Sign in page
+
+
 ( STILL DEVELOPING )
 
 DEMO : https://kickzout.vercel.app/
