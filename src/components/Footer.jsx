@@ -1,8 +1,4 @@
-import { FaCcVisa } from "react-icons/fa6";
-import { FaCcMastercard } from "react-icons/fa";
-import { FaCcAmex } from "react-icons/fa6";
-import { FaCcDiscover } from "react-icons/fa6";
-import { MdOutlineVerifiedUser } from "react-icons/md";
+import Link from "next/link"
 
 
 export default function Footer () {
@@ -19,14 +15,12 @@ export default function Footer () {
           <div className="footer-section">
             <h2 className="text-xl font-bold mb-4">Quick Links</h2>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-gray-400">Home</a></li>
-              <li><a href="#" className="hover:text-gray-400">Shop</a></li>
-              <li><a href="#" className="hover:text-gray-400">About</a></li>
-              <li><a href="#" className="hover:text-gray-400">Contact</a></li>
+              <li><Link href="/" className="hover:text-gray-400">Home</Link></li>
+              <li><Link href="./products" className="hover:text-gray-400">Products</Link></li>
             </ul>
           </div>
           <div className="footer-section">
-            <h2 className="text-xl font-bold mb-4">Contact Us</h2>
+            <h2 className="text-xl font-bold mb-4">Our Office</h2>
             <p className="text-sm">123 Street Name</p>
             <p className="text-sm">City, Country</p>
             <p className="text-sm">email@example.com</p>
@@ -34,7 +28,7 @@ export default function Footer () {
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-6 text-sm text-center">
-          <p>&copy; {new Date().getFullYear()} Kickzout. All rights reserved made with.</p>
+          <p>&copy; {new Date().getFullYear()} Kickzout. All rights reserved , Created By Ardhiffa Mada Perdana</p>
         </div>
       </div>
     </footer>

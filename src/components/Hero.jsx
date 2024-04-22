@@ -1,5 +1,5 @@
 import Image from "next/image"
-
+import Link from "next/link"
 
 export default function Collection () {
     return(
@@ -10,7 +10,7 @@ export default function Collection () {
     </h1>
     <ul className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
       <li>
-        <a href="#" className="group relative block">
+        <Link href="./products" className="group relative block">
           <Image
             src="https://images.unsplash.com/photo-1618898909019-010e4e234c55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
             height={500}
@@ -30,7 +30,7 @@ export default function Collection () {
               Shop Now
             </span>
           </div>
-        </a>
+        </Link>
       </li>
     </ul>
   </div>

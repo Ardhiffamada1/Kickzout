@@ -18,12 +18,11 @@ export default function ProductShow () {
     <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {productsToShow.map(product => (
       <li key={product.id}>
-        <Link href="#" className="group block overflow-hidden">
+        <Link href="./products/showproducts" className="group block overflow-hidden">
           <Image
             src={product.image}
             height={500}
             width={500}
-            objectFit="contain"
             priority
             alt=""
             className="h-[350px] w-full object-contain transition duration-500 group-hover:scale-105 sm:h-[450px]"
@@ -38,8 +37,7 @@ export default function ProductShow () {
 
             <p className="mt-2">
               <span className="sr-only"> Regular Price </span>
-
-              <span className="tracking-wider text-gray-900">Rp.{usdToIdr(product.price)}</span>
+              <span className="tracking-wider text-gray-900">Rp {usdToIdr(product.price)}</span>
             </p>
           </div>
         </Link>
