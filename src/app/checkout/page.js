@@ -1,3 +1,5 @@
+import Cards from "@/components/Card";
+
 
 export const metadata = {
   title: "Cart | Kickzout.co",

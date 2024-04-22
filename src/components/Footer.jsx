@@ -7,92 +7,36 @@ import { MdOutlineVerifiedUser } from "react-icons/md";
 
 export default function Footer () {
     return(
-        <footer className="bg-slate-200 p-5">
-          <div className=" py-10 sm:px-6 lg:col-span-3 lg:px-8">
-            <div className="grid grid-cols-2 sm:grid-cols-2">
-              <div>
-                <ul className="mt-8 space-y-1 text-sm text-gray-700">
-                  <li>We Accept payment</li>
-                </ul>
-
-                <ul className="mt-8 flex gap-6">
-                  <li>
-                    <span>
-                    <FaCcVisa 
-                    size={30}/>
-                    </span>
-                  </li>
-
-                  <li>
-                  <span>
-                    <FaCcMastercard 
-                    size={30}/>
-                    </span>
-                  </li>
-                  
-                  <li>
-                  <span>
-                    <FaCcAmex 
-                    size={30}/>
-                    </span>
-                  </li>
-                  
-                  <li>
-                  <span>
-                    <FaCcDiscover
-                    size={30}/>
-                    </span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-4">
-                <div>
-                  <p className="font-medium text-gray-900">Brands</p>
-
-                  <ul className="mt-6 space-y-4 text-sm">
-                    <li>
-                      <a href="#" className="text-gray-700 transition hover:opacity-75"> Adidas </a>
-                    </li>
-
-                    <li>
-                      <a href="#" className="text-gray-700 transition hover:opacity-75"> Nike </a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div>
-                  <p className="font-medium text-gray-900">Customer Services</p>
-
-                  <ul className="mt-6 space-y-4 text-sm">
-                    <li>
-                      <a href="#" className="text-gray-700 transition hover:opacity-75"> Contacts </a>
-                    </li>
-
-                    <li>
-                      <a href="#" className="text-gray-700 transition hover:opacity-75"> Tracking </a>
-                    </li>
-
-                    <li>
-                      <a href="#" className="text-gray-700 transition hover:opacity-75"> Orders </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-8 border-t border-gray-100 pt-12">
-              <div className="sm:flex sm:items-center sm:justify-between">
-                <span className="flex gap-2 text-xs text-gray-500">
-                <MdOutlineVerifiedUser size={18}/> Secure Shopping
-                </span>
-
-                <p className="mt-8 text-xs text-gray-500 sm:mt-0">
-                  &copy; 2024. Kickzout. All rights reserved.
-                </p>
-              </div>
-            </div>
+      <footer className="bg-slate-200 ">
+      <div className="container mx-auto py-8 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="footer-section">
+            <h2 className="text-xl font-bold mb-4">About Us</h2>
+            <p className="text-sm">
+            Kickzout started with a simple idea: to provide sneaker lovers with the latest and greatest kicks, all in one place. Since 2024, we've been curating a collection of top-quality sneakers to help you step up your style game.
+            </p>
           </div>
-        </footer>
+          <div className="footer-section">
+            <h2 className="text-xl font-bold mb-4">Quick Links</h2>
+            <ul className="space-y-2">
+              <li><a href="#" className="hover:text-gray-400">Home</a></li>
+              <li><a href="#" className="hover:text-gray-400">Shop</a></li>
+              <li><a href="#" className="hover:text-gray-400">About</a></li>
+              <li><a href="#" className="hover:text-gray-400">Contact</a></li>
+            </ul>
+          </div>
+          <div className="footer-section">
+            <h2 className="text-xl font-bold mb-4">Contact Us</h2>
+            <p className="text-sm">123 Street Name</p>
+            <p className="text-sm">City, Country</p>
+            <p className="text-sm">email@example.com</p>
+            <p className="text-sm">+123 456 7890</p>
+          </div>
+        </div>
+        <div className="border-t border-gray-700 mt-8 pt-6 text-sm text-center">
+          <p>&copy; {new Date().getFullYear()} Kickzout. All rights reserved made with.</p>
+        </div>
+      </div>
+    </footer>
     )
 }

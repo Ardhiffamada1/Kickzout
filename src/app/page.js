@@ -8,9 +8,8 @@ import Collection from "@/components/Hero";
 export default function Home() {
   return (
     <main>
-      <Collection />
       <Cards />
-      <div className="mt-4">
+      <div className="mt-10">
       <h1 className="text-2xl font-bold mb-4 text-center">Customer Reviews</h1>
         <div className="flex flex-col md:flex-row xl:flex-row justify-center gap-3">
         {reviews.map(review => (

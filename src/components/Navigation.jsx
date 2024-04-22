@@ -1,7 +1,8 @@
 import { PiBagSimpleLight } from "react-icons/pi";
 import { PiHeartLight } from "react-icons/pi";
-import { PiUser } from "react-icons/pi";
+
 import Link from "next/link";
+import Dropdown from "@/props/dropdownNavigation";
 
 export default function Navbar () {
     return(
@@ -24,8 +25,7 @@ export default function Navbar () {
                 </Link>
             </li>
             <li>
-                <PiUser  className="w-6 h-6"
-                />
+            <Dropdown />
             </li>
         </ul>
         </nav>

@@ -5,7 +5,7 @@ export default function Collection () {
         <section>
   <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
     <h1>
-      Summersale Season 2024  
+      Our Collection
     </h1>
     <ul className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
       <li>
